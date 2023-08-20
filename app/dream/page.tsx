@@ -66,7 +66,7 @@ export default function DreamPage() {
           generatePhoto(file[0].fileUrl.replace("raw", "thumbnail"));
         }
       }}
-      width="670px"
+      width="570px"
       height="250px"
     />
   );
@@ -97,8 +97,8 @@ export default function DreamPage() {
     <div className="flex max-w-6xl mx-auto flex-col items-center justify-center py-2 min-h-screen">
       <Header />
       <main className="flex flex-1 w-full flex-col items-center justify-center text-center px-4 mt-4 sm:mb-0 mb-8">
-        <h1 className="mx-auto max-w-4xl font-display text-4xl font-bold tracking-normal text-slate-100 sm:text-6xl mb-5">
-          Generate your <span className="text-blue-600">dream</span> room
+        <h1 className="mx-auto max-w-4xl font-display text-4xl font-bold tracking-normal text-slate-300 sm:text-6xl mb-5">
+          Create an <span className="text-green-500">AI Generated</span> Room
         </h1>
         <ResizablePanel>
           <AnimatePresence mode="wait">
@@ -160,7 +160,7 @@ export default function DreamPage() {
               )}
               {restoredImage && (
                 <div>
-                  Here's your remodeled <b>{room.toLowerCase()}</b> in the{" "}
+                  Here's your virtualized <b>{room.toLowerCase()}</b> in the{" "}
                   <b>{theme.toLowerCase()}</b> theme!{" "}
                 </div>
               )}
@@ -221,7 +221,7 @@ export default function DreamPage() {
               {loading && (
                 <button
                   disabled
-                  className="bg-blue-500 rounded-full text-white font-medium px-4 pt-2 pb-3 mt-8 w-40"
+                  className="bg-green-700 rounded-full text-black font-medium px-4 pt-2 pb-3 mt-8 w-40"
                 >
                   <span className="pt-4">
                     <LoadingDots color="white" style="large" />
@@ -245,7 +245,7 @@ export default function DreamPage() {
                       setRestoredLoaded(false);
                       setError(null);
                     }}
-                    className="bg-blue-500 rounded-full text-white font-medium px-4 py-2 mt-8 hover:bg-blue-500/80 transition"
+                    className="bg-green-700 rounded-full text-white font-medium px-4 py-2 mt-8 hover:bg-green-500/80 transition"
                   >
                     Generate New Room
                   </button>
@@ -258,7 +258,7 @@ export default function DreamPage() {
                         appendNewToName(photoName!)
                       );
                     }}
-                    className="bg-white rounded-full text-black border font-medium px-4 py-2 mt-8 hover:bg-gray-100 transition"
+                    className="bg-gray-900 rounded-full text-green-300 border font-medium px-4 py-2 mt-8 hover:bg-black transition"
                   >
                     Download Generated Room
                   </button>

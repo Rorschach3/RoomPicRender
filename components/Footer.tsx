@@ -3,13 +3,13 @@ import Link from "next/link";
 export default function Footer() {
   return (
     <footer className="text-center h-16 sm:h-20 w-full sm:pt-2 pt-4 border-t mt-5 flex sm:flex-row flex-col justify-between items-center px-3 space-y-3 sm:mb-0 mb-3 border-gray-500">
-      <div className="text-gray-500">
+      <div className="text-gray-400">
         Powered by{" "}
         <a
           href="https://replicate.com/"
           target="_blank"
           rel="noreferrer"
-          className="font-bold hover:underline transition hover:text-gray-300 underline-offset-2"
+          className="font-bold hover:underline transition hover:text-gray-200 underline-offset-2"
         >
           Replicate,{" "}
         </a>
@@ -17,7 +17,7 @@ export default function Footer() {
           href="https://upload.io"
           target="_blank"
           rel="noreferrer"
-          className="font-bold hover:underline hover:text-gray-300 transition underline-offset-2"
+          className="font-bold hover:underline hover:text-gray-200 transition underline-offset-2"
         >
           Upload,{" "}
         </a>

@@ -1,10 +1,10 @@
-# [RoomGPT](https://roomGPT.io) - redesign your room with AI
+# [RoomPicRender](https://RoomPicRender.vercel.app) - virtualize your room with AI
 
-This is the previous and open source version of RoomGPT.io (a paid SaaS product). It's the very first version of roomGPT without the auth, payments, or additional features and it's simple to clone, deploy, and play around with.
+This is cloned and based on the RoomGPT.io project, I have added my own style and made it more geared towards virtualizing a room and seeing what it could look like with a different look, instead of reorganizing it.
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/Nutlope/roomGPT&env=REPLICATE_API_KEY&project-name=room-GPT&repo-name=roomGPT)
 
-[![Room GPT](./public/screenshot.png)](https://roomGPT.io)
+[![RoomPicRender](./public/screenshot.png)](https://RoomPicRender.vercel.app)
 
 ## How it works
 
@@ -15,7 +15,7 @@ It uses an ML model called [ControlNet](https://github.com/lllyasviel/ControlNet
 ### Cloning the repository the local machine.
 
 ```bash
-git clone https://github.com/Nutlope/roomGPT
+git clone https://github.com/Rorschach3/RoomPicRender.git
 ```
 
 ### Creating a account on Replicate to get an API key.

@@ -12,18 +12,18 @@ export default function Header() {
           width={24}
           height={24}
         />
-        <h1 className="sm:text-3xl text-xl font-bold ml-2 tracking-tight">
-          roomGPT.io
+        <h1 className="sm:text-l text-xl font-bold ml-2 tracking-tight">
+          RoomPicRender.vercel.app
         </h1>
       </Link>
       <a
-        className="flex max-w-fit items-center justify-center space-x-2 rounded-full border border-blue-600 text-white px-5 py-2 text-sm shadow-md hover:bg-blue-500 bg-blue-600 font-medium transition"
-        href="https://github.com/Nutlope/roomGPT"
+        className="flex max-w-fit items-center justify-center space-x-2 rounded-full border border-green-400 text-white px-5 py-2 text-sm shadow-md hover:bg-green-700 bg-green-900 font-medium transition"
+        href="https://github.com/Rorschach3/RoomPicRender"
         target="_blank"
         rel="noopener noreferrer"
       >
         <Github />
-        <p>Star on GitHub</p>
+        <p>Favorite on GitHub</p>
       </a>
     </header>
   );

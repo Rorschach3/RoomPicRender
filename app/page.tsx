@@ -13,28 +13,28 @@ export default function HomePage() {
           href="https://vercel.fyi/roomGPT"
           target="_blank"
           rel="noreferrer"
-          className="border border-gray-700 rounded-lg py-2 px-4 text-gray-400 text-sm mb-5 transition duration-300 ease-in-out"
+          className="border border-gray-300 rounded-lg py-2 px-4 text-gray-100 text-sm mb-5 transition duration-300 ease-in-out"
         >
           Clone and deploy your own with{" "}
-          <span className="text-blue-600">Vercel</span>
+          <span className="text-green-500">Vercel</span>
         </a>
-        <h1 className="mx-auto max-w-4xl font-display text-5xl font-bold tracking-normal text-gray-300 sm:text-7xl">
-          Generating dream rooms{" "}
-          <span className="relative whitespace-nowrap text-blue-600">
+        <h1 className="mx-auto max-w-4xl font-display text-5xl font-bold tracking-normal text-gray-100 sm:text-7xl">
+          Generating virtual rooms{" "}
+          <span className="relative whitespace-nowrap text-green-600">
             <SquigglyLines />
             <span className="relative">using AI</span>
           </span>{" "}
           for everyone.
         </h1>
-        <h2 className="mx-auto mt-12 max-w-xl text-lg sm:text-gray-400  text-gray-500 leading-7">
+        <h2 className="mx-auto mt-12 max-w-xl text-lg sm:text-gray-100  text-gray-800 leading-7">
           Take a picture of your room and see how your room looks in different
-          themes. 100% free – remodel your room today.
+          themes. 100% free – virtualize your room today.
         </h2>
         <Link
-          className="bg-blue-600 rounded-xl text-white font-medium px-4 py-3 sm:mt-10 mt-8 hover:bg-blue-500 transition"
+          className="bg-green-600 rounded-xl text-white font-medium px-4 py-3 sm:mt-10 mt-8 hover:bg-green-500 transition"
           href="/dream"
         >
-          Generate your dream room
+          Virtualize
         </Link>
         <div className="flex justify-between items-center w-full flex-col sm:mt-10 mt-6">
           <div className="flex flex-col space-y-10 mt-4 mb-16">
