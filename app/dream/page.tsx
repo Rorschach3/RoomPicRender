@@ -66,7 +66,7 @@ export default function DreamPage() {
           generatePhoto(file[0].fileUrl.replace("raw", "thumbnail"));
         }
       }}
-      width="570px"
+      width="670px"
       height="250px"
     />
   );
